@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <link href="css/style.css" rel="stylesheet">
+    <title>Tour & Travel</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 col-md-3">
+            <h1 class="logo">
+                <img src="./img/logo.png" class="img-fluid" alt="logo"/>
+            </h1>
+        </div>
+        <div class="col-sm-8 col-md-9">
+            <nav class="top-nav float-right mar-top-20">
+                <ul class="nav justify-content-end">
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about_us">About Us</a></li>
+                    <li><a href="#destination">Destination</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <!-------------------------slider start----------------------->
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/slider-1.jpg" alt="Los Angeles" class="img-fluid">
+                    <div class="carousel-caption">
+                        <h4>Best Offer</h4>
+                        <h2>25% off</h2>
+                        <h3>SANTORINI City Tour</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s</p>
+                        <p><a class="see-more-btn" href="">see more</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/slider-1.jpg" alt="Chicago" class="img-fluid">
+                    <div class="carousel-caption">
+                        <h4>Best Offer</h4>
+                        <h2>25% off</h2>
+                        <h3>SANTORINI City Tour</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s</p>
+                        <p><a class="see-more-btn" href="">see more</a></p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <section>
+            <div class="container">
+                <a href="#" class="scroll-down" address="true">Scroll down</a>
+            </div>
+        </section>
+        <section class="ok gray-bg">
+            <p class="text-center center-p">Make a Reservation</p>
+
+            <div class="container">
+                <form action="">
+                    <!--  General -->
+                    <!--  Details -->
+                    <div class="form-group">
+                        <div class="grid">
+                            <div class="controls">
+                                <i class="fa fa-map-marker fa-icons  " aria-hidden="true"></i>
+                                <select class="floatLabel">
+                                    <option value="blank"></option>
+                                    <option value="single-bed">Zweibett</option>
+                                    <option value="double-bed" selected>Doppelbett</option>
+                                </select>
+                                <label for="fruit">Select Destination &nbsp;&nbsp;</label>
+                            </div>
+                            <div class="controls width-15">
+                                <i class="fa fa-calendar fa-icons "></i>
+                                <input type="date" id="arrive" class="floatLabel" name="arrive"
+                                       value="<?php echo date('Y-m-d'); ?>">
+                                <label for="arrive" class="label-date">From &nbsp;&nbsp;</label>
+                            </div>
+                            <div class="controls width-15">
+                                <i class="fa fa-calendar fa-icons "></i>
+                                <input type="date" id="depart" class="floatLabel" name="depart"
+                                       value="<?php echo date('Y-m-d'); ?>"/>
+                                <label for="depart" class="label-date">To &nbsp;&nbsp;</label>
+                            </div>
+                            <div class="controls width-15">
+                                <i class="fa fa-users fa-icons " aria-hidden="true"></i>
+                                <select class="floatLabel">
+                                    <option value="blank"></option>
+                                    <option value="1">1</option>
+                                    <option value="2" selected>2</option>
+                                    <option value="3">3</option>
+                                </select>
+                                <label for="fruit">Guests &nbsp;&nbsp;</label>
+                            </div>
+                            <div class="controls">
+                                <button class="btn btn-primary availability-btn">Check Availability</button>
+                            </div>
+                        </div>
+                    </div> <!-- /.form-group -->
+                </form>
+            </div>
+        </section>
+        <!--=====================================================About us =========================================-->
+        <section class="container-fluid">
+            <div class="container mar-top-50">
+                <a id="about_us"></a>
+                <div class="row">
+                    <div class="col-sm-4 col-md-4 col-12">
+                        <figure>
+                            <img src="img/abiut-img.jpg" alt="Trulli" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="col-sm-8 col-md-8 col-12">
+                        <article class="about-txt">
+                            <h2>About us</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p class="float-right"><a href="" class="btn btn-primary read-more">READ MORE</a></p>
+                        </article>
+                    </div>
+                </div>
+                <a id="destination"></a>
+                <div class="row">
+                    <div class="col-sm-8 col-md-8 col-12">
+                        <article class="about-txt">
+                            <h2>Destination</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p class="float-right"><a href="" class="btn btn-primary read-more">READ MORE</a></p>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-12">
+                        <figure>
+                            <img src="img/abiut-img.jpg" alt="Trulli" class="img-fluid">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="mib-border"></div>
+        <!--================================ Top Destinations ==========================================-->
+        <section class="container">
+            <article class="about-txt">
+                <h2 class="text-center">Top Destinations</h2>
+                <p class="text-center">Septos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus
+                    condimentum sit amet a augue. </p>
+            </article>
+            <div class="row mar-top-50">
+                <div class="col-sm-4 col-md-4 col-12">
+                    <div class="img-galary">
+                        <div class="content">
+                            <a href="" target="_blank">
+                                <div class="content-overlay"></div>
+                                <img class="content-image" src="img/1.jpg">
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="content-title">see more</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <h3 class="title">Santorini</h3>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-12">
+                    <div class="img-galary">
+                        <div class="content">
+                            <a href="" target="_blank">
+                                <div class="content-overlay"></div>
+                                <img class="content-image" src="img/2.jpg">
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="content-title">see more</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <h3 class="title">Text fadeIn bottom</h3>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-12">
+                    <div class="img-galary">
+                        <div class="content">
+                            <a href="" target="_blank">
+                                <div class="content-overlay"></div>
+                                <img class="content-image" src="img/1.jpg">
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="content-title">see more</h3>
+
+                                </div>
+                            </a>
+                        </div>
+                        <h3 class="title">Text fadeIn bottom</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----====================================== Packages=======================================-->
+        <section class="packages-bg">
+            <div class="container">
+                <article class="about-txt">
+                    <h2 class="text-center">Packages</h2>
+                    <p class="text-center">Septos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus
+                        condimentum sit amet a augue. </p>
+                </article>
+                <div class="row">
+                    <div class="pack-bg-mid">
+                        <div class="col-sm-12 col-md-3 col-12">
+                            <div class="card text-center" style="width: 18rem;">
+                                <img class="card-img-top" src="./img/Home-icon.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Culture trip</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and
+                                        make.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-12">
+                            <div class="row">
+
+                                <div class="col-sm-4 col-md-4 col-12">
+                                    <article class="packages-detal">
+                                        <h3>Place 1</h3>
+                                        <p>Cererat consequat auctor eu in elit sed.</p>
+                                        <ul class="Place-ul">
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 120 mins</li>
+                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Santorini</li>
+                                        </ul>
+                                    </article>
+                                </div>
+                                <div class="col-sm-4 col-md-4 col-12">
+                                    <article class="packages-detal">
+                                        <h3>Place 1</h3>
+                                        <p>Cererat consequat auctor eu in elit sed.</p>
+                                        <ul class="Place-ul">
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 120 mins</li>
+                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Santorini</li>
+                                        </ul>
+                                    </article>
+                                </div>
+                                <div class="col-sm-4 col-md-4 col-12">
+                                    <article class="packages-detal">
+                                        <h3>Place 1</h3>
+                                        <p>Cererat consequat auctor eu in elit sed.</p>
+                                        <ul class="Place-ul">
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 120 mins</li>
+                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Santorini</li>
+                                        </ul>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-12">
+                            <div class="card text-center" style="width: 18rem;">
+                                <div class="card-body mar-center pad-88">
+                                    <a class="destinations-btn">Book it now</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="pack-bg-mid">
+                        <div class="col-sm-12 col-md-3 col-12">
+                            <div class="card text-center" style="width: 18rem;">
+                                <img class="card-img-top" src="./img/waite-icon.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Culture trip</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and
+                                        make.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-12">
+                            <div class="row">
+                                <div class="col-sm-4 col-md-4 col-12">
+                                    <article class="packages-detal">
+                                        <h3>Place 2</h3>
+                                        <p>Cererat consequat auctor eu in elit sed.</p>
+                                        <ul class="Place-ul">
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 120 mins</li>
+                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Santorini</li>
+                                        </ul>
+                                    </article>
+                                </div>
+                                <div class="col-sm-4 col-md-4 col-12">
+                                    <article class="packages-detal">
+                                        <h3>Place 2</h3>
+                                        <p>Cererat consequat auctor eu in elit sed.</p>
+                                        <ul class="Place-ul">
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 120 mins</li>
+                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Santorini</li>
+                                        </ul>
+                                    </article>
+                                </div>
+                                <div class="col-sm-4 col-md-4 col-12">
+                                    <article class="packages-detal">
+                                        <h3>Place 2</h3>
+                                        <p>Cererat consequat auctor eu in elit sed.</p>
+                                        <ul class="Place-ul">
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 120 mins</li>
+                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Santorini</li>
+                                        </ul>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-12">
+                            <div class="card text-center" style="width: 18rem;">
+                                <div class="card-body mar-center pad-88">
+                                    <a class="destinations-btn">Book it now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="pack-bg-mid mar-bot-80">
+                        <div class="col-sm-12 col-md-3 col-12">
+                            <div class="card text-center" style="width: 18rem;">
+                                <img class="card-img-top" src="./img/food-icon.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Culture trip</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and
+                                        make.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-12">
+                            <div class="row">
+                                <div class="col-sm-4 col-md-4">
+                                    <article class="packages-detal">
+                                        <h3>Place 3</h3>
+                                        <p>Cererat consequat auctor eu in elit sed.</p>
+                                        <ul class="Place-ul">
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 120 mins</li>
+                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Santorini</li>
+                                        </ul>
+                                    </article>
+                                </div>
+                                <div class="col-sm-4 col-md-4 col-12">
+                                    <article class="packages-detal">
+                                        <h3>Place 3</h3>
+                                        <p>Cererat consequat auctor eu in elit sed.</p>
+                                        <ul class="Place-ul">
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 120 mins</li>
+                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Santorini</li>
+                                        </ul>
+                                    </article>
+                                </div>
+                                <div class="col-sm-4 col-md-4 col-12">
+                                    <article class="packages-detal">
+                                        <h3>Place 3</h3>
+                                        <p>Cererat consequat auctor eu in elit sed.</p>
+                                        <ul class="Place-ul">
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 120 mins</li>
+                                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Santorini</li>
+                                        </ul>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-12">
+                            <div class="card text-center" style="width: 18rem;">
+                                <div class="card-body mar-center pad-88">
+                                    <a class="destinations-btn">Book it now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="width-100 rgt-cent-txt">
+            <div class="col-sm-6 col-md-6 col-12">
+                <div class="row">
+                    <img src="./img/11.png" class="img-fluid" alt="img11">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-12">
+                <article class="text-center">
+                    <div class="display-center-div">
+                        <h2>Lorem Ipsum is simply dummy text </h2>
+                        <p>Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                            bibendum auctor, nisi elit consequat ipsum.</p>
+                        <span class="mar-bot-80 display-block">Some restrictions apply*</span>
+                        <a class="destinations-btn">Book now</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <section class="container">
+            <div class="row">
+                <div class="col-sm-2 col-md-2"></div>
+                <div class="col-sm-8 col-md-8 col-12">
+                    <article class="about-txt text-center mar-top-50 padding-25{">
+                        <h2 class="hedding-color">Not ready yet? Then Join our newsletter</h2>
+                        <p class="mar-top-20">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.</p>
+                    </article>
+                    <section class="newsletter">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="content">
+
+                                        <div class="input-group">
+                                            <input type="email" class="form-control"
+                                                   placeholder="Enter your email address">
+                                            <span class="input-group-btn">
+                                               <button class="btn" type="submit">Subscribe</button>
+                                               </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="col-sm-2 col-md-2"></div>
+                </div>
+            </div>
+        </section>
+        <section class="packages-bg">
+            <section class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-md-4 col-12">
+                        <article class="footer-title">
+                            <h4>Contact Us</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <ul>
+                                <li><i class="fa fa-phone" aria-hidden="true"></i> +91 8010798956</li>
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i> rahul2rkj@gmail.com</li>
+                                <li><i class="fa fa-map-marker" aria-hidden="true"></i>Lorem Ipsum is simply dummy text
+                                    of the printing and typesetting industry.
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-12">
+                        <article class="footer-title">
+                            <h4>Recent Tweets</h4>
+                            <ul>
+                                <li>
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    <div><span class="color-txt">@abcdef</span> Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry.
+                                    </div>
+                                </li>
+                                <li><i class="fa fa-twitter" aria-hidden="true"></i>
+                                    <div><span class="color-txt">@abcdef</span> Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry.
+                                    </div>
+                                </li>
+                                <li><i class="fa fa-twitter" aria-hidden="true"></i>
+                                    <div><span class="color-txt">@abcdef</span> Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry.
+                                    </div>
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-12">
+                        <article class="footer-title">
+                            <h4>Recent posts</h4>
+                            <ul>
+                                <li><i class="fa fa-comment" aria-hidden="true"></i>
+                                    <div>How to get ready for your honey moon trip?
+                                        <a class="color-txt" href="">Read more...</a></div>
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="col-sm-4 col-md-4 col-12">
+                    <p class="copyright-txt">Copyright © 2019 Lorem Ipsum is simply.</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-12">
+                    <div class="col-12 text-center social-icons">
+                        <!-- Add font awesome icons -->
+                        <a href="#" class="fa-social fa fa-facebook"></i></a>
+                        <a href="#" class="fa-social fa fa-twitter"></a>
+                        <a href="#" class="fa-social fa fa-instagram"></a>
+                    </div>
+
+                </div>
+                <div class="col-sm-4 col-md-4 col-12">
+                    <ul class="footer-rht">
+                        <li><a href="">Privacy & Terms</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Legal</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('.scroll-down').click(function () {
+            $('html, body').animate({scrollTop: $('section.ok').offset().top}, 'slow');
+            return false;
+        });
+    });
+
+    (function ($) {
+        function floatLabel(inputType) {
+            $(inputType).each(function () {
+                var $this = $(this);
+                // on focus add cladd active to label
+                $this.focus(function () {
+                    $this.next().addClass("active");
+                });
+                //on blur check field and remove class if needed
+                $this.blur(function () {
+                    if ($this.val() === '' || $this.val() === 'blank') {
+                        $this.next().removeClass();
+                    }
+                });
+            });
+        }
+
+        // just add a class of "floatLabel to the input field!"
+        floatLabel(".floatLabel");
+    })(jQuery);
+</script>
+</body>
+</html>
